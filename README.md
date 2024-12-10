@@ -39,7 +39,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/game.clicker.git
+git clone https://github.com/awaliuddin/game.clicker.git
 
 # Navigate to project directory
 cd game.clicker
@@ -120,6 +120,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <p align="center">Made with ❤️ and lots of ☕</p>
 
 <p align="center">
-  <a href="https://github.com/yourusername/game.clicker/issues">Report Bug</a> ·
-  <a href="https://github.com/yourusername/game.clicker/issues">Request Feature</a>
+  <a href="https://github.com/awaliuddin/game.clicker/issues">Report Bug</a> ·
+  <a href="https://github.com/awaliuddin/game.clicker/issues">Request Feature</a>
 </p>
