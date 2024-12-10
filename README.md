@@ -5,6 +5,10 @@
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)](https://www.framer.com/motion/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
+<p align="center">
+  <img src="nxtg.ai-game_clicker-demo02.gif" alt="Mindfulness Clicker Game Demo" width="300"/>
+</p>
+
 > A delightful and engaging clicker game that combines mindfulness with fun gameplay mechanics! 🌈 ✨
 
 ## 🌟 Features
