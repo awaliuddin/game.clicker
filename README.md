@@ -117,7 +117,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<p align="center">Made with ❤️ and lots of ☕</p>
+<p align="center">Made with ❤️ with my daughter and lots of ☕</p>
 
 <p align="center">
   <a href="https://github.com/awaliuddin/game.clicker/issues">Report Bug</a> ·
