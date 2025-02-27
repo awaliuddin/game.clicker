@@ -23,6 +23,7 @@ const MindfulnessClicker = () => {
     { id: 'rainbow', name: 'Rainbow Joy', color: 'bg-purple-400', badge: '🌈', position: 3 }
   ]);
   const [showBadges, setShowBadges] = useState(false);
+  const [isSpacebarPressed, setIsSpacebarPressed] = useState(false); // Track spacebar state
 
   // Sound effects
   const [playClick] = useSound('/sounds/click.mp3', { volume });
@@ -227,6 +228,38 @@ const MindfulnessClicker = () => {
     playClick();
     shuffleNodes();
   };
+
+  // Add keyboard event listener for spacebar
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      // Check if the pressed key is the spacebar and it's not already pressed
+      if ((event.code === 'Space' || event.key === ' ') && !isSpacebarPressed) {
+        // Prevent default behavior (like scrolling the page)
+        event.preventDefault();
+        // Set spacebar as pressed to prevent multiple triggers
+        setIsSpacebarPressed(true);
+        // Trigger the center circle click
+        handleCoreClick();
+      }
+    };
+
+    const handleKeyUp = (event) => {
+      // Reset the spacebar state when it's released
+      if (event.code === 'Space' || event.key === ' ') {
+        setIsSpacebarPressed(false);
+      }
+    };
+
+    // Add event listeners
+    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener('keyup', handleKeyUp);
+
+    // Clean up the event listeners when component unmounts
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener('keyup', handleKeyUp);
+    };
+  }, [isSpacebarPressed, handleCoreClick, playClick, shuffleNodes]); // Include all dependencies
 
   return (
     <div className="w-full min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-gray-50 p-4">
