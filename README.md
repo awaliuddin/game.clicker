@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-  <img src="nxtg.ai-game_clicker-demo02.gif" alt="Mindfulness Clicker Game Demo" width="300"/>
+  <img src="nxtg.ai-game_clicker-demo02.gif" alt="Mindfulness Clicker Game Demo" width="600"/>
 </p>
 
 > A delightful and engaging clicker game that combines mindfulness with fun gameplay mechanics! 🌈 ✨
@@ -39,7 +39,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/game.clicker.git
+git clone https://github.com/awaliuddin/game.clicker.git
 
 # Navigate to project directory
 cd game.clicker
@@ -117,9 +117,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<p align="center">Made with ❤️ and lots of ☕</p>
+<p align="center">Made with ❤️ with my daughter and lots of ☕</p>
 
 <p align="center">
-  <a href="https://github.com/yourusername/game.clicker/issues">Report Bug</a> ·
-  <a href="https://github.com/yourusername/game.clicker/issues">Request Feature</a>
+  <a href="https://github.com/awaliuddin/game.clicker/issues">Report Bug</a> ·
+  <a href="https://github.com/awaliuddin/game.clicker/issues">Request Feature</a>
 </p>
